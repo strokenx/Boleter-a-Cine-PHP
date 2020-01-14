@@ -1,0 +1,80 @@
+html, body {
+    height:100%;
+}
+body {
+    box-shadow:inset -50px 0 200px -30px rgba(0,0,0,.75);
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #778899;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #708090;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+table{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    width: 100%;
+    padding: 12px 20px;
+
+}
+h1 {
+    font-size:40px;
+    text-align: center;
+    margin-top:8px;
+    margin-bottom:50px;
+}
+select:disabled {
+    color: #f2f2f2; 
+}
+#asientos {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#asientos td, #asientos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#asientos tr:nth-child(even){background-color: #f2f2f2;}
+
+#asientos tr:hover {background-color: #ddd;}
+
+#asientos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #778899;
+    color: white;
+    text-align: center;
+}
+
+
